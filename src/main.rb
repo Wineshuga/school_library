@@ -1,4 +1,4 @@
-require "./app"
+require './app'
 
 def main
   app = App.new
@@ -6,4 +6,4 @@ def main
   app.run
 end
 
-main()
+main
