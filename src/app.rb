@@ -92,8 +92,7 @@ class App
     choice
   end
 
-  def choice
-    choice_alt
+  def choice_alt
     case input
     when '1'
       list_books
@@ -106,7 +105,8 @@ class App
     end
   end
 
-  def choice_alt
+  def choice
+    choice_alt
     case input
     when '5'
       create_rental
